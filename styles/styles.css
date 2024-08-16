@@ -20,6 +20,9 @@ background-color: black;
   
 }
 .extra-mile{
+  display: flex;
+  justify-content:center;
+  align-items: center;
   color: aliceblue;
   margin-top: 170px;
   border-radius: 18px;
@@ -27,40 +30,41 @@ background-color: black;
   width: 1090px;
   height: 371px;
   margin-left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   
 
   
 }
 .mile-title{
-color: rgb(255, 255, 255);
-font-size: 3rem;
-font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+
 
   
 }
 .mile-description{
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
-  font-weight: 400;
-  width: 400px;
-  margin-bottom: 40px;
+  font-weight: 400
+  
+  
 }
 .mile-content{
-  position: relative;
-  width: 443px;
-  height: 290px;
-  left: 54px;
-  top: 41px;
+  
+
+  
 }
  .RUN{
- position: absolute;
- width: 366px;
- height: 312px;
- right: -550px;
- bottom: -10px;
- border-radius: 18px;
- object-fit: none;
-  object-position: 66% 30%;
+  width: 400px;
+  border-radius: 18px;
+  object-fit: none;
+  object-position: 69% 30%;
+  
+  
+  
+ 
 }
 
 
@@ -384,54 +388,33 @@ body {
   }
 
   /* MILE SECTION */
-  .extra-mile{
-    display: block;
-    width: 335px;
-    height: 531px;
+  .extra-mile {
     position: absolute;
-    left: -50px;
-    top: 2180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    height: 531px;
+    margin-left: 0px;
+    margin-right: 0px;
+    right: -25px;
     
     
-
-  }
-  .mile-content{
-    display: block;
-    position: relative;
-    width: 260px;
-    height: 264px;
-    left: 25px;
-    top: 20px;
-    
-  
-
-  }
-  .mile-description{
-    position: static;
-    width: 287px;
-    height: 96px;
-
-  }
-  .mile-title{
-    display: block;
-    font-size: 1.5rem;
 
   }
   .RUN{
-    display: block;
-    position: absolute;
-    width: 287px;
-    height: 170px;
-    left: 0px;
-    bottom: -200px ;
-    border-radius: 19px;
-    object-fit: cover;
+    display: none;
   }
+  .mile-content{
+    display: none;
+  }
+  
+  
   #btn3{
-    position: relative;
+    
     width: 287px;
     height: 54px;
-    top: -30px;
+    top: 20px;
 
   }
 

@@ -19,6 +19,10 @@ background-color: black;
   
   
 }
+.extra-mile-container {
+  display: flex;
+  justify-content: center;
+}
 .extra-mile{
   display: flex;
   justify-content:center;
@@ -389,24 +393,38 @@ body {
 
   /* MILE SECTION */
   .extra-mile {
-    position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 290px;
-    height: 531px;
+    height: 631px;
     margin-left: 0px;
     margin-right: 0px;
-    right: -25px;
+    
+   
     
     
 
   }
   .RUN{
-    display: none;
+    display: block;
+    object-fit:fill;
+    width: 287px;
+    height: 200px
+    
+  }
+  .mile-run{
+    position: relative;
+    bottom: -160px;
+    display: block
+    
+    
   }
   .mile-content{
-    display: none;
+    display: block;
+    width: 287px;
+    height: 264px;
   }
   
   

@@ -33,7 +33,7 @@ background-color: black;
   background: rgb(34, 34, 34);
   width: 1090px;
   height: 371px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   padding-left: 20px;
   padding-right: 20px;
   
@@ -221,10 +221,13 @@ body {
 
 .section-img-container{
   display: flex;
+  flex-shrink: 0;
   flex-direction: row;
+  justify-content: center;
   gap: 200px;
-  margin-left: 40px;
+  /* margin-left: 40px; ei margin deya ta jibon er onk boro vul chilo */ 
   padding: 20px;
+  /* border: 1px solid blue; */
   
 
 }

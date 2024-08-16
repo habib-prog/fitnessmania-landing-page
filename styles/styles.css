@@ -56,8 +56,8 @@ font-weight: 900;
  position: absolute;
  width: 366px;
  height: 312px;
- right: 180px;
- bottom: -840px;
+ right: -550px;
+ bottom: -10px;
  border-radius: 18px;
  object-fit: none;
   object-position: 66% 30%;
@@ -389,7 +389,7 @@ body {
     width: 335px;
     height: 531px;
     position: absolute;
-    left: -90px;
+    left: -50px;
     top: 2180px;
     
     
@@ -402,6 +402,7 @@ body {
     height: 264px;
     left: 25px;
     top: 20px;
+    
   
 
   }
@@ -421,15 +422,16 @@ body {
     position: absolute;
     width: 287px;
     height: 170px;
-    left: 26px;
-    top: 340px;
+    left: 0px;
+    bottom: -200px ;
     border-radius: 19px;
     object-fit: cover;
   }
   #btn3{
-    position: static;
+    position: relative;
     width: 287px;
     height: 54px;
+    top: -30px;
 
   }
 
